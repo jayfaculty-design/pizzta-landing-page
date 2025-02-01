@@ -8,6 +8,10 @@
   --color-oranges: #955120;
   --color-white: #fff;
   --font-Rale: "Raleway", "sans-serif"; 
+  --breakpoint-*: initial;
+  --breakpoint-tablet: 640px;
+  --breakpoint-laptop: 1024px;
+  --breakpoint-desktop: 1280px;
 }
 
 * {
@@ -18,5 +22,13 @@
 body {
   background: var(--color-background);
   scroll-behavior: smooth;
+
+}
+a.active {
+  text-decoration: underline;
+  text-decoration-color: var(--color-yellows);
+  text-underline-offset: 5px;
+  text-decoration-thickness: 2px;
+  
 }
 
