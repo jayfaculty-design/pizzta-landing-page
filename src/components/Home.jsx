@@ -113,16 +113,24 @@ const Home = () => {
           className="socials flex gap-5 justify-center mt-10 laptop:mt-5"
         >
           <div className="bg-yellows p-2 rounded-full flex items-center justify-center cursor-pointer">
-            <Instagram />
+            <a target="_blank" href="https://github.com/jayfaculty-design">
+              <Instagram />
+            </a>
           </div>
           <div className="bg-yellows p-2 rounded-full flex items-center justify-center cursor-pointer">
-            <Facebook />
+            <a target="_blank" href="https://github.com/jayfaculty-design">
+              <Facebook />
+            </a>
           </div>
           <div className="bg-yellows p-2 rounded-full flex items-center justify-center cursor-pointer">
-            <LucideTwitter />
+            <a target="_blank" href="https://github.com/jayfaculty-design">
+              <LucideTwitter />
+            </a>
           </div>
           <div className="bg-yellows p-2 rounded-full flex items-center justify-center cursor-pointer">
-            <Github />
+            <a target="_blank" href="https://github.com/jayfaculty-design">
+              <Github />
+            </a>
           </div>
         </motion.div>
         <motion.div
