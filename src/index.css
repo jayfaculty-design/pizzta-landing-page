@@ -1,0 +1,22 @@
+@import "tailwindcss";
+@import "tailwindcss";
+
+@theme {
+  --color-*: initial;
+  --color-yellows: #f2b90c;
+  --color-background: #1d1e26;
+  --color-oranges: #955120;
+  --color-white: #fff;
+  --font-Rale: "Raleway", "sans-serif"; 
+}
+
+* {
+  
+  box-sizing: border-box;
+  font-family: "Orelega One", serif;
+}
+body {
+  background: var(--color-background);
+  scroll-behavior: smooth;
+}
+
